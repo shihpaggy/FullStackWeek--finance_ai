@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { LogInIcon } from "lucide-react";
 
 const LoginPage = () => {
   return (
@@ -13,12 +15,15 @@ const LoginPage = () => {
           className="mb-8"
         />
         <h1 className="mb-3 text-4xl font-bold">Bem Vindo</h1>
-        <p className="text-muted-foreground">
+        <p className="mb-8 text-muted-foreground">
           A Finance AI é uma plataforma de gestão financeira que utiliza IA para
           monitorar suas movimentações, e oferecer insights personalizados,
           facilitando o controle do seu orçamento.
         </p>
-        <Button variant="outline">Fazer login ou criar conta</Button>
+        <Button variant="outline">
+          <LogInIcon className="mr-2" />
+          Fazer login ou criar conta
+        </Button>
       </div>
       {/* DIREITA*/}
       <div className="relative h-full w-full">
