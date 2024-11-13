@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.5",
@@ -16,6 +17,8 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "finance_ai": "file:",
+    "husky": "^9.1.6",
+    "lint-staged": "^12.3.2",
     "lucide-react": "^0.454.0",
     "next": "14.2.16",
     "prettier": "^3.3.3",
